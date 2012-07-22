@@ -1,4 +1,4 @@
 Calculator
 ==========
 
-Proiect C++ pt cursul InfoAcademy
+Proiect C++ pt cursul InfoAcademy.
