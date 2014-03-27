@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proiect" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proiect" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proiect" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Calcule/combinatorial.cpp" />
+		<Unit filename="Calcule/combinatorial.h" />
+		<Unit filename="Calcule/exceptii.h" />
+		<Unit filename="Calcule/operatii.h" />
+		<Unit filename="Calcule/siruri.cpp" />
+		<Unit filename="Calcule/siruri.h" />
+		<Unit filename="UI/cmdaritmetice.h" />
+		<Unit filename="UI/cmdcombinatorial.h" />
+		<Unit filename="UI/cmdexit.cpp" />
+		<Unit filename="UI/cmdexit.h" />
+		<Unit filename="UI/cmdsiruri.h" />
+		<Unit filename="UI/comanda.cpp" />
+		<Unit filename="UI/comanda.h" />
+		<Unit filename="UI/meniu.cpp" />
+		<Unit filename="UI/meniu.h" />
+		<Unit filename="UI/meniucombinatorial.cpp" />
+		<Unit filename="UI/meniucombinatorial.h" />
+		<Unit filename="UI/meniuoperatiiaritmetice.cpp" />
+		<Unit filename="UI/meniuoperatiiaritmetice.h" />
+		<Unit filename="UI/meniuprincipal.cpp" />
+		<Unit filename="UI/meniuprincipal.h" />
+		<Unit filename="UI/meniusiruri.cpp" />
+		<Unit filename="UI/meniusiruri.h" />
+		<Unit filename="aplicatie.cpp" />
+		<Unit filename="aplicatie.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

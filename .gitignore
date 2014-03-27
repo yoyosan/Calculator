@@ -1,12 +1,10 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+**/bin
+**/.objs
+**/obj
+*.depend
+*.layout
+*.sdf
+*.opensdf
+**/Debug
+**/Release
+**/ipch
