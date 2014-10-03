@@ -3,7 +3,7 @@ Calculator
 
 Final project for the C++ InfoAcademy course(infoacademy.net).
 
-Developed with Codeblocks, using Linux Arch.
+Developed with Codeblocks, using Arch Linux.
 
 Guidelines
 ==========
